@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<style>
+
+body
+{
+	background-color:purple;
+}
+
+@font-face{font-family: AGENTORANGE; src:url('AGENTORANGE.ttf');}
+input[type="text"]
+{
+	font-size:17pt;
+	font-family:AGENTORANGE;
+}
+p
+{
+	position:absolute;
+	left:845;
+	top:250;
+	font-family:AGENTORANGE;
+	color:white;
+	float:right;
+	text-align:center;
+	font-size:18pt;
+}
+
+</style>
+</head>
+<body>
+
+	<canvas  id="myCanvas" onclick="clicker(event)" style="width:800px;border:solid 2px;" width="800" height="600" onclick="start()"></canvas>
+	<script src="game.js"></script>
+	<form>
+	<p >Score<br><input id="iny" type="text"><p>
+	</form>
+
+</body>
+
+</html>
